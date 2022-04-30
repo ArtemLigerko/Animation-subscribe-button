@@ -1,0 +1,49 @@
+body {
+    /* background-color: black; */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.button-body {
+    width: 100%;
+    height: 400px;
+    margin: 20px 40px;
+    background-color: rgb(164, 149, 250);
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 400px;
+    height: 100px;
+    border-radius: 7px;
+    border-color: none;
+    background-color: rgb(148, 129, 255);
+    align-self: center;
+    text-align: center;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    letter-spacing: 5px;
+    animation-name: button-animation;
+    animation-duration: 1s;
+    /* animation-iteration-count: infinite; */
+    animation-timing-function: linear;
+
+}
+
+.button2:hover {
+    box-shadow: 0px 40px 4px -20px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes button-animation {
+    from {top: 0px;}
+    to {bottom: 100px;}
+    /* 100% {bottom: 10px;} */
+}
